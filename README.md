@@ -16,21 +16,31 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+My R and D
+1st install nextjs:
+npx create-next-app@latest
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+app folder->
+layout is a Structure of the website
+page is a content of the website
+app folder is the root folder
+page.js is like index.js I mean root file
+layout is a common file for all page
 
-## Learn More
+now create about us section
+so create folder
+app/about/page.js
 
-To learn more about Next.js, take a look at the following resources:
+then automatic if you hit
+https://...../about then see the about section
+if you want to create custom layout for about then creage layout.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Now add Link
+Normal Html we use in <a>
+but here we use <Link>
+Because
+when we use <a>
+then it go to this link with reload
+but
+Link without reload it can rander anypage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
